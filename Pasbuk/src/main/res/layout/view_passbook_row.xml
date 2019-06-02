@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:padding="0dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/event_ticket_mark"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ticket_circle_shape"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-14dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:minWidth="40dp"
+            android:maxWidth="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/logo_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="8dp"
+            tools:src="@drawable/logo_captus"
+            android:scaleType="fitCenter"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/organization_name"
+            tools:text="Oye"
+            tools:textColor="#000000"
+            android:fontFamily="Roboto-Medium"
+            android:maxLines="1"
+            android:layout_toRightOf="@+id/logo_image"
+            android:layout_toLeftOf="@+id/header_fields_layout"
+            android:layout_above="@+id/relevant_date"
+            android:textSize="@dimen/font_size_normal"
+            android:ellipsize="end"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/relevant_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo_image"
+            android:layout_toLeftOf="@+id/header_fields_layout"
+            android:layout_alignParentBottom="true"
+            tools:text="1 ago 2015"
+            tools:textColor="#000000"
+            tools:visibility="visible"
+            android:textSize="@dimen/font_size_tiny"
+            android:fontFamily="Roboto-Light"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/header_fields_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_height="50dp"
+            tools:layout_width="40dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            tools:background="#55ffffff"
+            android:layout_marginBottom="8dp"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

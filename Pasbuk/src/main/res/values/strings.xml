@@ -1,0 +1,51 @@
+<!-- Localizable created with localio on (2015-05-16 22:41:00 +0200). DO NOT MODIFY. -->
+<resources>
+
+  <!--  Generales -->
+  <string name="app_name">Pasbuk</string>
+  <string name="downloading_file">Downloading file…</string>
+  <string name="pass_does_not_exist_alert">The pass does not exist</string>
+  <string name="pass_file_not_available_anymore">The passbook file is not available anymore</string>
+  <string name="pass_file_has_invalid_data">The passbook file has some invalid data</string>
+  <string name="delete_pass_message">Do you want to delete the pass?</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="deleted_pass_alert">The pass was deleted successfully</string>
+  <string name="settings">Settings</string>
+  <string name="archive">Archive</string>
+
+  <!-- All Passes Screen -->
+  <string name="all_passes_empty_view_text">Add your first pass by clicking the (+) button below</string>
+  <string name="all_companies">All</string>
+  <string name="sort_by_relevant_date">Sort by relevant date</string>
+  <string name="sort_by_adition_date">Sort by update date</string>
+
+  <!-- Settings Screen -->
+  <string name="hide_past_events_title">Past events</string>
+  <string name="hide_past_events_content">Archive events which day has passed</string>
+  <string name="date_format_title">Date format for passes list</string>
+  <string name="about_title">About this app</string>
+  <string name="about_content">"Pasbuk" came up with idea of managing and displaying passbook passes in a Androidish 
+way. Some other apps try to imitate the passbook appearance found 
+on iOS app and they don\'t take in mind what the user is familiar to.
+As a Android user, in my case, I wanted to see the pass info following Apple\'s passbook
+format but in a Androidish way :). Since material was born and applied 
+to android guidelines, there were no excuses to not make a beautiful
+passbook app!</string>
+  <string name="app_version">Version</string>
+  <string name="rate_this_app_title">Rate this app</string>
+  <string name="rate_this_app_content">Click and be part of it</string>
+  <string name="contact_title">Contact</string>
+  <string name="contact_content">Here you can give me your feedback or concerns</string>
+  <string name="last_update_date">Updated</string>
+  <string name="pass_not_updated_text">This pass does not allow updates</string>
+  <string name="swipe_to_refresh_text">Swipe down to refresh: </string>
+  <string name="add_event_to_calendar">Add event to calendar</string>
+  <string name="push_notifications">Show notifications</string>
+  <string name="barcode_not_supported">Sorry, this pass is not supported yet</string>
+
+  <string name="camera_permission_text">You have to give permission to the camera to use this functionality</string>
+  <string name="location_permission_text">You have to give permission to the location to use this functionality</string>
+  <string name="storage_permission_text">You have to give permission to the storage to use this functionality</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/header_field_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Viaje a: SEVILLA SJ"
+        android:textAllCaps="true"
+        android:textSize="@dimen/font_size_tiny"
+        android:fontFamily="Roboto-Medium"
+        android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/header_field_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="22/03/2015"
+        android:textSize="@dimen/font_size_normal"
+        android:fontFamily="Roboto-Light"
+        android:gravity="right"/>
+
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_formatted_array" translatable="false">
+        <item >21 Ago 2012</item>
+        <item>21 Ago 2012 14:30</item>
+        <item>21/08/2012</item>
+        <item>21/08/2012 14:30</item>
+    </string-array>
+</resources>

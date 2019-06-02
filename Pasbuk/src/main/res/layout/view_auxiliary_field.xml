@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/field_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Depart"
+        tools:textColor="#ffffff"
+        android:textSize="@dimen/font_size_tiny"
+        android:fontFamily="Roboto-Medium" />
+
+    <TextView
+        android:id="@+id/field_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="2:25 PM"
+        tools:textColor="#ffffff"
+        android:textSize="@dimen/font_size_normal_small"
+        android:fontFamily="Roboto-Light"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/barcode_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:src="@drawable/barcode_test"
+    android:adjustViewBounds="true"
+    android:padding="40dp"
+    android:keepScreenOn="true">
+
+</ImageView>

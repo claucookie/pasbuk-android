@@ -1,0 +1,52 @@
+<!-- Localizable created with localio on (2015-05-16 22:41:00 +0200). DO NOT MODIFY. -->
+<resources>
+
+  <!--  -->
+  <string name="app_name">Pasbuk</string>
+  <string name="downloading_file">Descargando archivo…</string>
+  <string name="pass_does_not_exist_alert">El pase no existe</string>
+  <string name="pass_file_not_available_anymore">El billete en formato passbook ya no está disponible</string>
+  <string name="pass_file_has_invalid_data">El archivo tiene algún dato no válido</string>
+  <string name="delete_pass_message">¿Quiere borrar el pase?</string>
+  <string name="yes">Si</string>
+  <string name="no">No</string>
+  <string name="deleted_pass_alert">El pase ha sido eliminado correctamente</string>
+  <string name="settings">Ajustes</string>
+  <string name="archive">Archivados</string>
+
+  <!--  -->
+  <string name="all_passes_empty_view_text">Añade tu primer pase haciendo click en el botón (+)</string>
+  <string name="all_companies">Todos</string>
+  <string name="sort_by_relevant_date">Ordenar por fecha del evento</string>
+  <string name="sort_by_adition_date">Ordenar por fecha de creación</string>
+
+  <!--  -->
+  <string name="hide_past_events_title">Eventos ya pasados</string>
+  <string name="hide_past_events_content">Archivar eventos cuya fecha ha pasado</string>
+  <string name="date_format_title">Formato de fecha para la lista de pases</string>
+  <string name="about_title">Sobre la aplicación</string>
+  <string name="about_content">"Pasbuk" nació con la idea de gestionar y mostrar passbooks siguiendo
+el estilo de una aplicación Android. En otras aplicaciones se intenta imitar
+la apariencia exacta del pase en la app de iOS olvidando que el usuario
+de un dispositivo android no está acostumbrado a ese tipo de formato.
+Como usuaria de Android, en mi caso quería poder ver la información del pase,
+siguiendo el formato establecido por Apple, pero de una manera que 
+me resulte familar. Aprovechando que hace poco ha salido material design, ya no 
+había más excusas para poder hacer una app para passbooks y que sea bonita!</string>
+  <string name="app_version">Versión</string>
+  <string name="rate_this_app_title">Valora la aplicación</string>
+  <string name="rate_this_app_content">Haz click para aportar tu granito de arena</string>
+  <string name="contact_title">Contacto</string>
+  <string name="contact_content">Si quieres comentar algo sobre la aplicación, puedes hacerlo aquí</string>
+  <string name="last_update_date">Actualizado </string>
+  <string name="pass_not_updated_text">Este pase no permite actualización</string>
+  <string name="swipe_to_refresh_text">Tira hacia abajo para actualizar:</string>
+  <string name="add_event_to_calendar">Añadir evento al calendario</string>
+  <string name="push_notifications">Mostrar notificaciones</string>
+  <string name="barcode_not_supported">Lo siento, este pase aún no es compatible con la app</string>
+
+  <string name="camera_permission_text">Tienes que dar permiso a la cámara para poder usar esta funcionalidad</string>
+  <string name="location_permission_text">Tienes que dar permiso de acceso a la ubicación para poder usar esta funcionalidad</string>
+  <string name="storage_permission_text">Tienes que dar permiso al almacenamiento para poder usar esta funcionalidad</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<!-- Localizable created with localio on (2015-05-16 22:41:00 +0200). DO NOT MODIFY. -->
+<resources>
+
+  <!--  -->
+  <string name="app_name">Pasbuk</string>
+  <string name="downloading_file">Téléchargement du fichier</string>
+  <string name="pass_does_not_exist_alert">Le pass n\'existe pas</string>
+  <string name="pass_file_not_available_anymore">Le passbook n\'est plus disponible</string>
+  <string name="pass_file_has_invalid_data">Le fichier a certaines données invalide</string>
+  <string name="delete_pass_message">Souhaitez-vous supprimer le pass?</string>
+  <string name="yes">Oui</string>
+  <string name="no">Non</string>
+  <string name="deleted_pass_alert">Le pass a été correctement supprimé</string>
+  <string name="settings">Réglages</string>
+  <string name="archive">Archivé</string>
+
+  <!--  -->
+  <string name="all_passes_empty_view_text">Ajoute ton premier pass en cliquant sur le bouton (+)</string>
+  <string name="all_companies">Tous</string>
+  <string name="sort_by_relevant_date">Tri par événement</string>
+  <string name="sort_by_adition_date">Tri par date de mise à jour</string>
+
+  <!--  -->
+  <string name="hide_past_events_title">Événements passés</string>
+  <string name="hide_past_events_content">Archive des événements qui a passé la journée</string>
+  <string name="date_format_title">Format de date pour le pass</string>
+  <string name="about_title">A propos de l\'application</string>
+  <string name="about_content">"Passbuk" est né de l\'idée de gérer et d\'afficher des passbooks adaptés à l\'environnement Android. D\'autres applications tentent de copier l\'apparence retrouvée chez celle d\'iOS mais sans prise en compte des besoins de l\'utilisateur. En tant qu\'utilisatrice d\'Android, je voulais m\'inspirer du format Apple, mais en offrant une expérience plus agréable à l\'utilisateur. Puisque la plateforme Android permet aujourd\'hui de développer des applications standards, il n\'y avait plus aucune excuse de ne pas réaliser un joli passbook!</string>
+  <string name="app_version">Version</string>
+  <string name="rate_this_app_title">Note cette application</string>
+  <string name="rate_this_app_content">Clique et participe au mouvement</string>
+  <string name="contact_title">Contact</string>
+  <string name="contact_content">Si tu souhaites commenter l\'application ou faire des remarques, c\'est ici</string>
+  <string name="last_update_date">Mise à jour</string>
+  <string name="pass_not_updated_text">Ne pouvait pas être mise à jour</string>
+  <string name="swipe_to_refresh_text">Balayez vers le bas pour rafraîchir: </string>
+  <string name="add_event_to_calendar">Ajouter un événement au calendrier</string>
+  <string name="push_notifications">Afficher les notifications</string>
+  <string name="barcode_not_supported">Désolé, cette donnée de passe n\'est pas encore supportée</string>
+
+  <string name="camera_permission_text">Vous devez donner la permission de l\'appareil photo pour utiliser cette fonctionnalité</string>
+  <string name="location_permission_text">Vous devez donner la permission d\'emplacement pour utiliser cette fonctionnalité</string>
+  <string name="storage_permission_text">Vous devez donner la permission de stockage pour utiliser cette fonctionnalité</string>
+
+</resources>

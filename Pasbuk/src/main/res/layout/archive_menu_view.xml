@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_bottom_row_height"
+    android:paddingRight="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/menu_item_bg_selector">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/menu_separator_color"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/company_menu_icon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_menu_archive"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/company_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/archive"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/font_size_small"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/company_menu_icon"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

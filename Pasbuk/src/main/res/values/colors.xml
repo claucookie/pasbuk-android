@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff131726</color>
+    <color name="primary_dark">#ff080a11</color>
+    <color name="accent">#ffffff</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="common_background">@color/primary</color>
+    <color name="button_shadow_color">#55000000</color>
+    <color name="android_green_color">#8BB900</color>
+    <color name="android_green_pressed_color">#ff577400</color>
+    <color name="menu_selected_bg">#ff080a11</color>
+    <color name="menu_separator_color">#ff626262</color>
+    <color name="barcode_message_color">#000000</color>
+    <color name="filter_add_color">#111111</color>
+    <color name="filter_add_color2">#555555</color>
+    <color name="switch_track_color">#55626262</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background">
+
+
+
+    <ImageView
+        android:id="@+id/ticket_image"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ticket_download"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/nexus_5_download"
+        android:layout_alignParentBottom="true"/>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moon_download"
+        android:layout_toRightOf="@+id/cloud_image"
+        android:layout_alignBottom="@+id/cloud_image"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginBottom="-10dp"/>
+
+    <ImageView
+        android:id="@+id/cloud_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cloud_download"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"/>
+
+</RelativeLayout>

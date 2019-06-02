@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/passes_list"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        android:gravity="center"
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ticket_empty_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="Roboto-Light"
+            android:text="@string/all_passes_empty_view_text"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/textColorPrimary"/>
+
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floating_actions_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        fab:fab_addButtonColorNormal="@color/android_green_color"
+        fab:fab_addButtonColorPressed="@color/android_green_pressed_color"
+        fab:fab_addButtonPlusIconColor="@color/common_background"
+        fab:fab_addButtonSize="normal"
+        android:layout_margin="10dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_documents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/ic_folder"
+            fab:fab_colorNormal="@color/android_green_color"
+            fab:fab_colorPressed="@color/android_green_pressed_color"
+            />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_field_title"
+        android:textSize="@dimen/font_size_huge"
+        tools:text="20% off"
+        android:gravity="right"
+        android:fontFamily="Robotto-Bold"
+        android:shadowColor="@color/common_background"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="56dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_field_subtitle"
+        android:textSize="@dimen/font_size_small"
+        tools:text="Any premium dog food"
+        android:gravity="right"
+        android:fontFamily="Robotto-Medium"
+        android:shadowColor="@color/common_background"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:textColor="@android:color/white" />
+
+</merge>
